@@ -54,7 +54,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('hello world 2');
+    res.send('Fidget Warehouse server is running...');
 })
 
 app.listen(port, () => {
